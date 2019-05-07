@@ -1,0 +1,38 @@
+{
+  "name": "clase1",
+  "version": "1.0.0",
+  "description": "Pruebas en react para la clase 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": ".\\node_modules\\.bin\\qunit-cli .\\test"
+  },
+  "keywords": [
+    "react",
+    "web"
+  ],
+  "author": "EducacionIt",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "qunit": "^2.9.2",
+    "qunit-cli": "^0.2.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1"
+  }
+}

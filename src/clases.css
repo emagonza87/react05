@@ -1,0 +1,39 @@
+.visible {
+    display: block;
+}
+
+.oculto {
+    display: none;
+}
+
+.apuesta {
+    padding-left: 10px;
+    font-size: 12;
+    color: white;
+}
+
+.numeroVerde {
+    border: solid 1px black;
+    height: 50px;
+    width: 140px;
+    background-color: green;
+    color: white;
+    font-size: 26;
+}
+
+.numeroNegro {
+    border: solid 1px green;
+    height: 100px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    font-size: 26;
+}
+
+.numeroRojo {
+    border: solid 1px green;
+    height: 100px;
+    width: 140px;
+    background-color: red;
+    font-size: 26;
+}
