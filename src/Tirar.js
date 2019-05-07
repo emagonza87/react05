@@ -5,7 +5,8 @@ class Tirar extends React.Component {
         super(props);
         this.tirarBollilla = this.tirarBollilla.bind(this);
         this.state = {
-            total: 0
+            total: 0,
+            resultado: 0
         }
     }
 
@@ -14,7 +15,8 @@ class Tirar extends React.Component {
         console.log(resultado);
         MiStore.dispatch({type:'evaluarJugada', ganador: resultado});
         this.setState({
-            total: MiStore.getState().total
+            total: MiStore.getState().total,
+            resultado: resultado
         });
     }
 
@@ -23,7 +25,8 @@ class Tirar extends React.Component {
         <div>
             <input type="button" value="TIRAR" onClick={this.tirarBollilla}></input>
             <hr />
-            Info ganador: {this.state.total}
+            Info resultado: {this.state.resultado}
+            Info ganador: {this.state.total}            
         </div>
         );
     }
