@@ -26,6 +26,7 @@ class Tirar extends React.Component {
             <input type="button" value="TIRAR" onClick={this.tirarBollilla}></input>
             <hr />
             Info resultado: {this.state.resultado}
+            <hr />
             Info ganador: {this.state.total}            
         </div>
         );
