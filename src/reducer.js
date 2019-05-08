@@ -1,7 +1,7 @@
 function reducer(estadoAnterior, accion) {
     switch(accion.type) {
        case 'acumular':
-         estadoAnterior.arr[accion.idx]*2;
+         estadoAnterior.arr[accion.idx] = estadoAnterior.arr[accion.idx] == 0 ? 1 : estadoAnterior.arr[accion.idx] * 2;
          break;
        case 'evaluarJugada':
          console.log(accion);
